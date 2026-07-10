@@ -1,9 +1,17 @@
 [project]
 name = "csv-cleaner"
 version = "0.1.0"
-description = "Add your description here"
+description = "Instrument for clear csv"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "pandas>=3.0.3",
+]
+
+[dependency-groups]
+dev = [
+    "black>=26.5.1",
+    "mypy>=2.2.0",
+    "pytest>=9.1.1",
+    "ruff>=0.15.21",
 ]
